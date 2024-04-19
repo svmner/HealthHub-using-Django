@@ -1,0 +1,19 @@
+{% extends 'hospital/homebase.html' %}
+{% block content %}
+
+<br>
+<br>
+
+<div class="jumbotron" style="margin-bottom:0px;">
+  <h1 class="display-4" style="text-align:center;">Hello,Admin</h1>
+  <p class="lead">Welcome to HealthHub!</p>
+  <p class="lead">Here you can register as an admin for our system and help facilitate our services.</p>
+  <hr class="my-4">
+  <p>You will able to access various features after logging in or signing up if you are not registered as an admin yet.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/adminsignup" role="button">Sign Up</a>
+    <a class="btn btn-primary btn-lg" href="/adminlogin" role="button">Login</a>
+  </p>
+</div>
+
+{% endblock content %}
